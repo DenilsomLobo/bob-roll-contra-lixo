@@ -1,0 +1,23 @@
+{
+  "name": "bob-roll-contra-o-lixo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.mjs",
+    "check": "node scripts/check.mjs",
+    "art": "node scripts/art/prepare-art.mjs",
+    "art:enemies": "node scripts/art/prepare-art.mjs --enemies-only",
+    "test": "node scripts/test.mjs",
+    "test:joystick": "node tests/joystick-art-test.mjs",
+    "test:terrain": "node tests/terrain-test.mjs",
+    "test:powerups": "node tests/powerup-test.mjs",
+    "test:enemies": "node tests/enemy-health-test.mjs",
+    "art:setpieces": "node scripts/art/prepare-art.mjs --setpieces-only",
+    "test:boss": "node tests/boss-checkpoint-test.mjs",
+    "art:victory": "node scripts/art/prepare-art.mjs --victory-only"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

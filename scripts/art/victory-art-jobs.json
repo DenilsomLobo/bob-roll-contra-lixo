@@ -1,0 +1,254 @@
+[
+  {
+    "source": "explosao.png",
+    "box": [
+      0,
+      0,
+      1301,
+      1190
+    ],
+    "size": [
+      200,
+      184
+    ],
+    "name": "victory-explosion",
+    "reference": [
+      1301,
+      1190
+    ]
+  },
+  {
+    "source": "bob-vitoria-pulando.png",
+    "box": [
+      0,
+      0,
+      1230,
+      1240
+    ],
+    "size": [
+      56,
+      56
+    ],
+    "name": "bob-victory",
+    "reference": [
+      1230,
+      1278
+    ]
+  },
+  {
+    "source": "bob-dancando.png",
+    "box": [
+      4,
+      90,
+      269,
+      510
+    ],
+    "size": [
+      56,
+      56
+    ],
+    "name": "bob-dance-1",
+    "reference": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "source": "bob-dancando.png",
+    "box": [
+      269,
+      60,
+      481,
+      510
+    ],
+    "size": [
+      56,
+      56
+    ],
+    "name": "bob-dance-2",
+    "reference": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "source": "bob-dancando.png",
+    "box": [
+      480,
+      95,
+      758,
+      510
+    ],
+    "size": [
+      56,
+      56
+    ],
+    "name": "bob-dance-3",
+    "reference": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "source": "bob-dancando.png",
+    "box": [
+      739,
+      100,
+      1042,
+      510
+    ],
+    "size": [
+      56,
+      56
+    ],
+    "name": "bob-dance-4",
+    "reference": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "source": "bob-dancando.png",
+    "box": [
+      1040,
+      90,
+      1265,
+      514
+    ],
+    "size": [
+      56,
+      56
+    ],
+    "name": "bob-dance-5",
+    "reference": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "source": "bob-dancando.png",
+    "box": [
+      1260,
+      100,
+      1536,
+      515
+    ],
+    "size": [
+      56,
+      56
+    ],
+    "name": "bob-dance-6",
+    "reference": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "source": "bob-robo.png",
+    "box": [
+      0,
+      0,
+      350,
+      510
+    ],
+    "size": [
+      64,
+      76
+    ],
+    "name": "robot-dance-1",
+    "reference": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "source": "bob-robo.png",
+    "box": [
+      349,
+      0,
+      663,
+      510
+    ],
+    "size": [
+      64,
+      76
+    ],
+    "name": "robot-dance-2",
+    "reference": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "source": "bob-robo.png",
+    "box": [
+      659,
+      0,
+      996,
+      510
+    ],
+    "size": [
+      64,
+      76
+    ],
+    "name": "robot-dance-3",
+    "reference": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "source": "bob-robo.png",
+    "box": [
+      957,
+      0,
+      1218,
+      510
+    ],
+    "size": [
+      64,
+      76
+    ],
+    "name": "robot-dance-4",
+    "reference": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "source": "bob-robo.png",
+    "box": [
+      1227,
+      0,
+      1536,
+      510
+    ],
+    "size": [
+      64,
+      76
+    ],
+    "name": "robot-dance-5",
+    "reference": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "source": "victory.png",
+    "box": [
+      0,
+      0,
+      1983,
+      793
+    ],
+    "size": [
+      320,
+      128
+    ],
+    "name": "victory-banner",
+    "reference": [
+      1983,
+      793
+    ]
+  }
+]

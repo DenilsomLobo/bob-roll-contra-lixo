@@ -1,0 +1,92 @@
+[
+  {
+    "source": "flag_checkpoint_neutra.png",
+    "name": "checkpoint-neutral",
+    "size": [
+      72,
+      80
+    ],
+    "box": [
+      0,
+      0,
+      1331,
+      1181
+    ],
+    "reference": [
+      1331,
+      1181
+    ]
+  },
+  {
+    "source": "boss-neutro.png",
+    "name": "boss-static-neutral",
+    "size": [
+      256,
+      280
+    ],
+    "box": [
+      0,
+      0,
+      1199,
+      1312
+    ],
+    "reference": [
+      1199,
+      1312
+    ]
+  },
+  {
+    "source": "boss-mov-1.png",
+    "name": "boss-static-mouth",
+    "size": [
+      256,
+      280
+    ],
+    "box": [
+      0,
+      0,
+      1199,
+      1312
+    ],
+    "reference": [
+      1199,
+      1312
+    ]
+  },
+  {
+    "source": "boss-atk.png",
+    "name": "boss-static-attack",
+    "size": [
+      256,
+      280
+    ],
+    "box": [
+      0,
+      0,
+      1321,
+      1191
+    ],
+    "reference": [
+      1321,
+      1191
+    ]
+  },
+  {
+    "source": "shot-boss.png",
+    "name": "boss-toxic-shot",
+    "size": [
+      36,
+      26
+    ],
+    "box": [
+      0,
+      0,
+      1482,
+      1062
+    ],
+    "reference": [
+      1482,
+      1062
+    ]
+  }
+]

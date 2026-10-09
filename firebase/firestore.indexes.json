@@ -1,0 +1,1 @@
+{"indexes":[{"collectionGroup":"ranking_bob_roll_contra_lixo","queryScope":"COLLECTION","fields":[{"fieldPath":"score","order":"DESCENDING"},{"fieldPath":"seconds","order":"ASCENDING"}]}],"fieldOverrides":[]}

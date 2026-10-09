@@ -1,0 +1,23 @@
+.tmp/
+node_modules/
+
+# Arquivos locais e segredos
+.env
+.env.*
+!.env.example
+.firebase/
+.aws/
+*service-account*.json
+firebase-adminsdk-*.json
+
+# Saídas geradas e logs
+artifacts/
+coverage/
+*.log
+
+# Preferências locais de editores e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

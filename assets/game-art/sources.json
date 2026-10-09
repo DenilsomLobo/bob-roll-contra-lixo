@@ -1,0 +1,912 @@
+{
+  "method": "High-resolution derived reference art; 4x sprite textures; original background; checkerboard removal including scaffold openings",
+  "original_sha256": {
+    "enemy-walk-run.png": "af1c508c1b7d0ae6c1b33ec1b5a317da608f83553be3d02b26ba0c70644e1482",
+    "enemy-fixo.png": "26ea72c1e4ee0f4bd42f264eeae9af1e59648527fd83668f60263710ef1ce3ad",
+    "enemy-torre.png": "7cbe21b46ef34d7a823ce766683c1395d74bc04d93dd88091c588739e827ef07",
+    "enemy-strong.png": "4c964bd2d684409e7d2367afdc18a691e95ad12749ee6f88ca548c23a80dcec3",
+    "enemy-projeto.png": "5b0c3641b22217676b7ba1e43bbcabba5e2bfd125630d50347794cc4b9b1341e",
+    "Folha de Sprites do Monstro de Lixo.png": "096836b42e9d5e46f1f102ad70240b8d109917da881fcf3627fe362c78268988",
+    "flag_checkpoint.png": "b7755e65eac162ce06a562f8ab3a4f34874d38cfa4912a9f289338624a1f9a89",
+    "cenario_1.png": "fb19251a41b9dc5d578481c249fa9be23d0b2f88038a30c2ffa5110368cc7f88",
+    "flag_checkpoint_neutra.png": "7e166dff6feca0b662069931bcef6560ab4838998cf55ca9b55fd4e8c881fd2d",
+    "boss-neutro.png": "ce6b5143901b4a60c7bfa9c5d03e6fd65ee9569c8f253f636f42ad0555925819",
+    "boss-mov-1.png": "dfbadf693b1a41eccb1b9b1d49bb6752364d172eb987cc2fe9e7c82ef1e8fcf8",
+    "boss-atk.png": "e418005262fa0f9e9e1bf4ddc247f9320db567894b298b263af73f9d66509c42",
+    "shot-boss.png": "a135ed7baeb272a2640164e481a3a6d0a9ca552d11f0bfd49f405061be9aeccd",
+    "explosao.png": "aae4ab7431d0537884dfe64b4b4a36a916ede82b13c5e21b25840b69aa507c9f",
+    "bob-vitoria-pulando.png": "7e5986498454a635115d877c2df2d2a6584078fc3a42c0be9810b9c66b82f66e",
+    "bob-dancando.png": "2a07e13f8766470f10fc49a4e008c48f7588ab82b33d68db1f046f47e0636dc7",
+    "bob-robo.png": "2fedd88d25348cd34fa2185328a2e4b6cc075b5bf9ccd674dc159c65708712fe",
+    "victory.png": "8e39cbb9df4e3aa2cbc0aff6cc7e08e82d6fc41285785c45da828838fb042d4e"
+  },
+  "enemy_crops": [
+    {
+      "source": "enemy-walk-run.png",
+      "box": [
+        15,
+        42,
+        260,
+        208
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "runner-walk-1"
+    },
+    {
+      "source": "enemy-walk-run.png",
+      "box": [
+        266,
+        42,
+        494,
+        208
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "runner-walk-2"
+    },
+    {
+      "source": "enemy-walk-run.png",
+      "box": [
+        501,
+        42,
+        733,
+        208
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "runner-walk-3"
+    },
+    {
+      "source": "enemy-walk-run.png",
+      "box": [
+        740,
+        42,
+        945,
+        208
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "runner-walk-4"
+    },
+    {
+      "source": "enemy-walk-run.png",
+      "box": [
+        12,
+        650,
+        273,
+        788
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "runner-ready"
+    },
+    {
+      "source": "enemy-walk-run.png",
+      "box": [
+        5,
+        444,
+        286,
+        600
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "runner-attack"
+    },
+    {
+      "source": "enemy-fixo.png",
+      "box": [
+        15,
+        46,
+        257,
+        205
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "guard-idle-1"
+    },
+    {
+      "source": "enemy-fixo.png",
+      "box": [
+        258,
+        46,
+        491,
+        205
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "guard-idle-2"
+    },
+    {
+      "source": "enemy-fixo.png",
+      "box": [
+        494,
+        46,
+        704,
+        205
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "guard-idle-3"
+    },
+    {
+      "source": "enemy-fixo.png",
+      "box": [
+        17,
+        247,
+        255,
+        411
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "guard-ready"
+    },
+    {
+      "source": "enemy-fixo.png",
+      "box": [
+        13,
+        452,
+        287,
+        620
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "guard-attack"
+    },
+    {
+      "source": "enemy-fixo.png",
+      "box": [
+        9,
+        877,
+        161,
+        982
+      ],
+      "size": [
+        22,
+        14
+      ],
+      "name": "guard-shot"
+    },
+    {
+      "source": "enemy-torre.png",
+      "box": [
+        5,
+        58,
+        189,
+        265
+      ],
+      "size": [
+        48,
+        60
+      ],
+      "name": "turret-idle-1"
+    },
+    {
+      "source": "enemy-torre.png",
+      "box": [
+        192,
+        58,
+        370,
+        265
+      ],
+      "size": [
+        48,
+        60
+      ],
+      "name": "turret-idle-2"
+    },
+    {
+      "source": "enemy-torre.png",
+      "box": [
+        374,
+        58,
+        564,
+        265
+      ],
+      "size": [
+        48,
+        60
+      ],
+      "name": "turret-idle-3"
+    },
+    {
+      "source": "enemy-torre.png",
+      "box": [
+        8,
+        323,
+        190,
+        534
+      ],
+      "size": [
+        48,
+        60
+      ],
+      "name": "turret-ready"
+    },
+    {
+      "source": "enemy-torre.png",
+      "box": [
+        790,
+        326,
+        969,
+        534
+      ],
+      "size": [
+        48,
+        60
+      ],
+      "name": "turret-attack"
+    },
+    {
+      "source": "enemy-torre.png",
+      "box": [
+        13,
+        600,
+        154,
+        710
+      ],
+      "size": [
+        24,
+        14
+      ],
+      "name": "turret-shot"
+    },
+    {
+      "source": "enemy-strong.png",
+      "box": [
+        3,
+        39,
+        203,
+        213
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "name": "heavy-walk-1"
+    },
+    {
+      "source": "enemy-strong.png",
+      "box": [
+        208,
+        39,
+        401,
+        213
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "name": "heavy-walk-2"
+    },
+    {
+      "source": "enemy-strong.png",
+      "box": [
+        403,
+        39,
+        595,
+        213
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "name": "heavy-walk-3"
+    },
+    {
+      "source": "enemy-strong.png",
+      "box": [
+        599,
+        39,
+        788,
+        213
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "name": "heavy-walk-4"
+    },
+    {
+      "source": "enemy-strong.png",
+      "box": [
+        796,
+        459,
+        1040,
+        620
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "name": "heavy-ready"
+    },
+    {
+      "source": "enemy-strong.png",
+      "box": [
+        5,
+        654,
+        237,
+        813
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "name": "heavy-attack"
+    },
+    {
+      "source": "enemy-projeto.png",
+      "box": [
+        10,
+        285,
+        190,
+        437
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "shooter-walk-1"
+    },
+    {
+      "source": "enemy-projeto.png",
+      "box": [
+        211,
+        285,
+        413,
+        437
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "shooter-walk-2"
+    },
+    {
+      "source": "enemy-projeto.png",
+      "box": [
+        425,
+        285,
+        619,
+        437
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "shooter-walk-3"
+    },
+    {
+      "source": "enemy-projeto.png",
+      "box": [
+        638,
+        285,
+        827,
+        437
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "shooter-walk-4"
+    },
+    {
+      "source": "enemy-projeto.png",
+      "box": [
+        5,
+        60,
+        198,
+        234
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "shooter-ready"
+    },
+    {
+      "source": "enemy-projeto.png",
+      "box": [
+        11,
+        485,
+        239,
+        643
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "shooter-attack"
+    },
+    {
+      "source": "enemy-projeto.png",
+      "box": [
+        12,
+        704,
+        192,
+        792
+      ],
+      "size": [
+        25,
+        13
+      ],
+      "name": "shooter-shot"
+    },
+    {
+      "source": "Folha de Sprites do Monstro de Lixo.png",
+      "box": [
+        3,
+        410,
+        171,
+        550
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "ambush-walk-1"
+    },
+    {
+      "source": "Folha de Sprites do Monstro de Lixo.png",
+      "box": [
+        175,
+        410,
+        343,
+        550
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "ambush-walk-2"
+    },
+    {
+      "source": "Folha de Sprites do Monstro de Lixo.png",
+      "box": [
+        347,
+        410,
+        517,
+        550
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "ambush-walk-3"
+    },
+    {
+      "source": "Folha de Sprites do Monstro de Lixo.png",
+      "box": [
+        520,
+        410,
+        686,
+        550
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "ambush-walk-4"
+    },
+    {
+      "source": "Folha de Sprites do Monstro de Lixo.png",
+      "box": [
+        8,
+        623,
+        201,
+        760
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "ambush-ready"
+    },
+    {
+      "source": "Folha de Sprites do Monstro de Lixo.png",
+      "box": [
+        811,
+        609,
+        986,
+        760
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "name": "ambush-attack"
+    },
+    {
+      "source": "flag_checkpoint.png",
+      "box": [
+        0,
+        0,
+        1331,
+        1181
+      ],
+      "size": [
+        72,
+        80
+      ],
+      "name": "checkpoint-flag",
+      "reference": [
+        1331,
+        1181
+      ]
+    }
+  ],
+  "setpiece_crops": [
+    {
+      "source": "flag_checkpoint_neutra.png",
+      "name": "checkpoint-neutral",
+      "size": [
+        72,
+        80
+      ],
+      "box": [
+        0,
+        0,
+        1331,
+        1181
+      ],
+      "reference": [
+        1331,
+        1181
+      ]
+    },
+    {
+      "source": "boss-neutro.png",
+      "name": "boss-static-neutral",
+      "size": [
+        256,
+        280
+      ],
+      "box": [
+        0,
+        0,
+        1199,
+        1312
+      ],
+      "reference": [
+        1199,
+        1312
+      ]
+    },
+    {
+      "source": "boss-mov-1.png",
+      "name": "boss-static-mouth",
+      "size": [
+        256,
+        280
+      ],
+      "box": [
+        0,
+        0,
+        1199,
+        1312
+      ],
+      "reference": [
+        1199,
+        1312
+      ]
+    },
+    {
+      "source": "boss-atk.png",
+      "name": "boss-static-attack",
+      "size": [
+        256,
+        280
+      ],
+      "box": [
+        0,
+        0,
+        1321,
+        1191
+      ],
+      "reference": [
+        1321,
+        1191
+      ]
+    },
+    {
+      "source": "shot-boss.png",
+      "name": "boss-toxic-shot",
+      "size": [
+        36,
+        26
+      ],
+      "box": [
+        0,
+        0,
+        1482,
+        1062
+      ],
+      "reference": [
+        1482,
+        1062
+      ]
+    }
+  ],
+  "victory_crops": [
+    {
+      "source": "explosao.png",
+      "box": [
+        0,
+        0,
+        1301,
+        1190
+      ],
+      "size": [
+        200,
+        184
+      ],
+      "name": "victory-explosion",
+      "reference": [
+        1301,
+        1190
+      ]
+    },
+    {
+      "source": "bob-vitoria-pulando.png",
+      "box": [
+        0,
+        0,
+        1230,
+        1240
+      ],
+      "size": [
+        56,
+        56
+      ],
+      "name": "bob-victory",
+      "reference": [
+        1230,
+        1278
+      ]
+    },
+    {
+      "source": "bob-dancando.png",
+      "box": [
+        4,
+        90,
+        269,
+        510
+      ],
+      "size": [
+        56,
+        56
+      ],
+      "name": "bob-dance-1",
+      "reference": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "source": "bob-dancando.png",
+      "box": [
+        269,
+        60,
+        481,
+        510
+      ],
+      "size": [
+        56,
+        56
+      ],
+      "name": "bob-dance-2",
+      "reference": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "source": "bob-dancando.png",
+      "box": [
+        480,
+        95,
+        758,
+        510
+      ],
+      "size": [
+        56,
+        56
+      ],
+      "name": "bob-dance-3",
+      "reference": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "source": "bob-dancando.png",
+      "box": [
+        739,
+        100,
+        1042,
+        510
+      ],
+      "size": [
+        56,
+        56
+      ],
+      "name": "bob-dance-4",
+      "reference": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "source": "bob-dancando.png",
+      "box": [
+        1040,
+        90,
+        1265,
+        514
+      ],
+      "size": [
+        56,
+        56
+      ],
+      "name": "bob-dance-5",
+      "reference": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "source": "bob-dancando.png",
+      "box": [
+        1260,
+        100,
+        1536,
+        515
+      ],
+      "size": [
+        56,
+        56
+      ],
+      "name": "bob-dance-6",
+      "reference": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "source": "bob-robo.png",
+      "box": [
+        0,
+        0,
+        350,
+        510
+      ],
+      "size": [
+        64,
+        76
+      ],
+      "name": "robot-dance-1",
+      "reference": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "source": "bob-robo.png",
+      "box": [
+        349,
+        0,
+        663,
+        510
+      ],
+      "size": [
+        64,
+        76
+      ],
+      "name": "robot-dance-2",
+      "reference": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "source": "bob-robo.png",
+      "box": [
+        659,
+        0,
+        996,
+        510
+      ],
+      "size": [
+        64,
+        76
+      ],
+      "name": "robot-dance-3",
+      "reference": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "source": "bob-robo.png",
+      "box": [
+        957,
+        0,
+        1218,
+        510
+      ],
+      "size": [
+        64,
+        76
+      ],
+      "name": "robot-dance-4",
+      "reference": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "source": "bob-robo.png",
+      "box": [
+        1227,
+        0,
+        1536,
+        510
+      ],
+      "size": [
+        64,
+        76
+      ],
+      "name": "robot-dance-5",
+      "reference": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "source": "victory.png",
+      "box": [
+        0,
+        0,
+        1983,
+        793
+      ],
+      "size": [
+        320,
+        128
+      ],
+      "name": "victory-banner",
+      "reference": [
+        1983,
+        793
+      ]
+    }
+  ],
+  "platform_crops": [],
+  "weapon_crops": [],
+  "generated_assets": {
+    "lava-pit.png": "ImageGen industrial lava shaft; references cenario_1.png and plataforma_cenario.png. Kept independently; not regenerated by this script."
+  }
+}
