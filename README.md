@@ -4,8 +4,7 @@ Jogo de ação e plataforma 2D para navegador, apresentado pela HiperRoll. Na Op
 
 ## Capa
 
-<!-- Substitua CAMINHO_DA_IMAGEM_DE_CAPA pelo caminho relativo da imagem ou por uma URL. Exemplo: docs/images/capa.png -->
-![Capa de Bob Roll — Contra o Lixo](CAMINHO_DA_IMAGEM_DE_CAPA)
+![Capa de Bob Roll — Contra o Lixo](https://portifolio-denilsom-lobo.web.app/images/games/bob-roll-contra-o-lixo.png)
 
 ## Como é o jogo
 
@@ -26,18 +25,17 @@ Substitua os três caminhos abaixo por imagens do seu jogo. Caminhos relativos, 
 
 ### 1. Exploração da usina
 
-<!-- Espaço 1: substitua CAMINHO_DA_IMAGEM_1. -->
-![Exploração da usina e plataformas](CAMINHO_DA_IMAGEM_1)
+![Exploração da usina e plataformas](https://portifolio-denilsom-lobo.web.app/images/git_hub_imgs/bob_vs_lixo_img_01.png)
 
 ### 2. Combate e obstáculos
 
 <!-- Espaço 2: substitua CAMINHO_DA_IMAGEM_2. -->
-![Combate contra os inimigos e obstáculos da fase](CAMINHO_DA_IMAGEM_2)
+![Combate contra os inimigos e obstáculos da fase](https://portifolio-denilsom-lobo.web.app/images/git_hub_imgs/bob_vs_lixo_img_02.png)
 
 ### 3. Confronto com o chefe
 
 <!-- Espaço 3: substitua CAMINHO_DA_IMAGEM_3. -->
-![Bob Roll enfrentando o Necrocompactador](CAMINHO_DA_IMAGEM_3)
+![Bob Roll enfrentando o Necrocompactador](https://portifolio-denilsom-lobo.web.app/images/git_hub_imgs/bob_vs_lixo_img_03.png)
 
 ## Tecnologias usadas
 
@@ -120,4 +118,8 @@ Para uma hospedagem estática, publique `index.html`, `src/`, `vendor/` e `asset
 
 ## Créditos
 
-Bob Roll — Contra o Lixo / HiperRoll. O Phaser é distribuído sob licença MIT, preservada no cabeçalho da biblioteca em `vendor/phaser.min.js`.
+Denilsom Lobo de Souza.
+
+O Phaser é distribuído sob licença MIT, preservada no cabeçalho da biblioteca em `vendor/phaser.min.js`.
+
+**Para ver mais conteúdos ou jogar link =>** https://portifolio-denilsom-lobo.web.app/games.html
